@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movieLeft {
+  padding: 20px;
+  height: 60vh;
+  border: 5px solid #ddd;
+  margin: 5px 10px 0px 10px;
+}
+.movieRight {
+  padding: 20px;
+  text-align: start;
+  border: 5px solid #ddd;
+  margin: 5px 10px 0px 10px;
+}
+.no-data-found {
+  text-align: center;
+  margin-top: 70px;
+  opacity: 0.6;
+}
+.fields {
+  margin: 10px 0px 10px 0px;
+}
+.labels {
+  font-weight: 600;
+  vertical-align: super;
+}
+.input-field {
+  width: 350px;
+  height: 35px;
+}
+.form-submit {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.submitBtn {
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  font-weight: 700;
+  background-color: rgba(59, 63, 59, 0.945);
+  color: white;
+}
+.submitError {
+  background-color: rgb(46, 27, 1);
+  color: white;
+  border: 2px solid #282c34;
+}
+.movie-list {
+  margin: 10px 0px 10px 0px;
+}
+.movie-ul {
+  padding: 0px 8px 0px 8px;
+  border: 3px solid #ddd;
+}
+.movie-name {
+  margin: 5px 0px 0px 0px;
+  color: green;
+}
+.movie-rat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.movie-details {
+  margin: 5px 0px 5px 0px;
+}
